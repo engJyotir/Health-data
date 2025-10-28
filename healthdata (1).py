@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1F8YH9-zJHOcs6jJtXX2G3_g4l7gPHGE8
 """
 
-!pip -q install -U transformers accelerate bitsandbytes sentencepiece tqdm
-
 import torch, subprocess, gc
 gc.collect()
 if torch.cuda.is_available():

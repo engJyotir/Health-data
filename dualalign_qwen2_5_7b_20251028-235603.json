@@ -1,0 +1,1140 @@
+[
+  {
+    "patient_id": "P1",
+    "persona": {
+      "age": 82,
+      "sex": "F",
+      "risk": "smoking_history, vision_cataract, type2_diabetes"
+    },
+    "timeline": [
+      {
+        "year": -10,
+        "note": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a 10-year history of cognitive decline. Family reports attention lapses and occasional anxiety. The patient requires assistance with medication management. Vision changes have been noted, and she has a history of cataracts and type 2 diabetes. \n\n**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits mild cognitive impairment, particularly in attention and memory. Visual acuity is reduced due to cataracts. No significant neuropsychiatric findings other than reported anxiety.\n\n**ASSESSMENT:**\nThe patient likely has Alzheimer's disease with possible vascular contributions given her history of diabetes and cataracts. Cognitive function is declining, and anxiety may be contributing to her symptoms.\n\n**PLAN:**\nInitiate cholinesterase inhibitors cautiously, considering potential side effects. Refer to ophthalmology for cataract surgery. Prescribe anxiolytics as needed. Provide education on medication management and consider a caregiver support group. Schedule follow-up in 3 months to reassess cognitive status and adjust treatment as",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a 10-year history of cognitive decline.",
+            "label": "None"
+          },
+          {
+            "sentence": "Family reports attention lapses and occasional anxiety.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient requires assistance with medication management.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "Vision changes have been noted, and she has a history of cataracts and type 2 diabetes.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits mild cognitive impairment, particularly in attention and memory.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Visual acuity is reduced due to cataracts.",
+            "label": "None"
+          },
+          {
+            "sentence": "No significant neuropsychiatric findings other than reported anxiety.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has Alzheimer's disease with possible vascular contributions given her history of diabetes and cataracts.",
+            "label": "None"
+          },
+          {
+            "sentence": "Cognitive function is declining, and anxiety may be contributing to her symptoms.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate cholinesterase inhibitors cautiously, considering potential side effects.",
+            "label": "None"
+          },
+          {
+            "sentence": "Refer to ophthalmology for cataract surgery.",
+            "label": "None"
+          },
+          {
+            "sentence": "Prescribe anxiolytics as needed.",
+            "label": "None"
+          },
+          {
+            "sentence": "Provide education on medication management and consider a caregiver support group.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "Schedule follow-up in 3 months to reassess cognitive status and adjust treatment as",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -8,
+        "note": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes. Family reports of word-finding difficulty and gait instability over the past 8 years. The patient requires assistance with managing finances. She exhibits signs of apathy.\n\n**OBJECTIVE:**\nOn examination, the patient demonstrates mild cognitive impairment with word-finding difficulty noted during conversation. Gait assessment reveals subtle instability but no falls or loss of balance. No significant neuropsychiatric findings other than observed apathy.\n\n**ASSESSMENT:**\nThe patient likely has Alzheimer's disease given the progressive cognitive decline and family concerns. Gait instability may be related to underlying vascular risk factors or early-stage dementia. Apathy is also consistent with her presentation.\n\n**PLAN:**\nInitiate cholinesterase inhibitors for potential symptomatic benefit. Refer to a geriatrician for comprehensive evaluation and management. Arrange for a formal cognitive assessment and consider a multidisciplinary team approach. Continue monitoring for progression and address financial management support.",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes.",
+            "label": "None"
+          },
+          {
+            "sentence": "Family reports of word-finding difficulty and gait instability over the past 8 years.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient requires assistance with managing finances.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "She exhibits signs of apathy.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient demonstrates mild cognitive impairment with word-finding difficulty noted during conversation.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Gait assessment reveals subtle instability but no falls or loss of balance.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant neuropsychiatric findings other than observed apathy.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has Alzheimer's disease given the progressive cognitive decline and family concerns.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Gait instability may be related to underlying vascular risk factors or early-stage dementia.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Apathy is also consistent with her presentation.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate cholinesterase inhibitors for potential symptomatic benefit.",
+            "label": "None"
+          },
+          {
+            "sentence": "Refer to a geriatrician for comprehensive evaluation and management.",
+            "label": "None"
+          },
+          {
+            "sentence": "Arrange for a formal cognitive assessment and consider a multidisciplinary team approach.",
+            "label": "None"
+          },
+          {
+            "sentence": "Continue monitoring for progression and address financial management support.",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -6,
+        "note": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes. She presents with concerns regarding her forgetfulness, which has been noted by her spouse. The patient requires assistance with managing her finances. She reports experiencing sleep fragmentation and exhibits signs of apathy.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert but demonstrates difficulty recalling recent events. Visual acuity is reduced due to cataracts. Blood glucose levels are within normal range. No significant neurological deficits are noted. Sleep studies indicate fragmented sleep patterns.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given her cognitive decline, forgetfulness, and apathy. Her sleep fragmentation may be related to her cognitive impairment or underlying medical conditions. The need for financial assistance suggests functional impairment.\n\n**PLAN:**\nInitiate cholinesterase inhibitors cautiously, considering potential side effects. Refer to a geriatrician for comprehensive evaluation and management. Schedule a sleep study to further assess sleep issues. Provide resources for financial management and",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes.",
+            "label": "None"
+          },
+          {
+            "sentence": "She presents with concerns regarding her forgetfulness, which has been noted by her spouse.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient requires assistance with managing her finances.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "She reports experiencing sleep fragmentation and exhibits signs of apathy.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but demonstrates difficulty recalling recent events.",
+            "label": "None"
+          },
+          {
+            "sentence": "Visual acuity is reduced due to cataracts.",
+            "label": "None"
+          },
+          {
+            "sentence": "Blood glucose levels are within normal range.",
+            "label": "None"
+          },
+          {
+            "sentence": "No significant neurological deficits are noted.",
+            "label": "None"
+          },
+          {
+            "sentence": "Sleep studies indicate fragmented sleep patterns.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given her cognitive decline, forgetfulness, and apathy.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Her sleep fragmentation may be related to her cognitive impairment or underlying medical conditions.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "The need for financial assistance suggests functional impairment.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate cholinesterase inhibitors cautiously, considering potential side effects.",
+            "label": "None"
+          },
+          {
+            "sentence": "Refer to a geriatrician for comprehensive evaluation and management.",
+            "label": "None"
+          },
+          {
+            "sentence": "Schedule a sleep study to further assess sleep issues.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Provide resources for financial management and",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -4,
+        "note": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes. She reports difficulty in finding her keys and wallet, which she attributes to \"getting old.\" Her caregiver noted that she has become less engaged in activities she used to enjoy. The patient requires assistance with medication management, often forgetting doses. Vision changes have been observed by both the patient and her caregiver.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert but shows signs of apathy. Visual acuity is reduced due to cataracts. No significant cognitive deficits were noted on initial screening, though she occasionally misplaces items. There is no evidence of delirium or agitation.\n\n**ASSESSMENT:**\nGiven the patient's age, risk factors, and recent onset of cognitive symptoms such as misplacing items and decreased engagement, there is a possible early indication of Alzheimer's disease. Vision changes and apathy are also noted, consistent with her overall presentation.\n\n**PLAN:**\nInitiate a comprehensive neuropsychological evaluation to further",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes.",
+            "label": "None"
+          },
+          {
+            "sentence": "She reports difficulty in finding her keys and wallet, which she attributes to \"getting old.\" Her caregiver noted that she has become less engaged in activities she used to enjoy.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient requires assistance with medication management, often forgetting doses.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Vision changes have been observed by both the patient and her caregiver.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but shows signs of apathy.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "Visual acuity is reduced due to cataracts.",
+            "label": "None"
+          },
+          {
+            "sentence": "No significant cognitive deficits were noted on initial screening, though she occasionally misplaces items.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "There is no evidence of delirium or agitation.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nGiven the patient's age, risk factors, and recent onset of cognitive symptoms such as misplacing items and decreased engagement, there is a possible early indication of Alzheimer's disease.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Vision changes and apathy are also noted, consistent with her overall presentation.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate a comprehensive neuropsychological evaluation to further",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -2,
+        "note": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes. She presents to the memory clinic with cognitive concerns noted by her caregiver. The patient reports occasional attention lapses but denies significant memory loss or confusion. Caregivers report that she requires supervision for cooking due to occasional lapses in attention. The patient also mentions experiencing sleep fragmentation and occasional irritability.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert and oriented to time and place. She demonstrates normal speech and comprehension but exhibits mild attentional deficits on testing. No focal neurological deficits are noted. Sleep studies show fragmented sleep patterns consistent with her complaints. No significant neuropsychiatric symptoms other than occasional irritability are observed.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the cognitive changes and caregiver observations. Her attentional lapses and sleep fragmentation are consistent with this diagnosis. The presence of irritability may be related to her cognitive decline or other underlying conditions such as diabetes.\n\n**PLAN:**\nInit",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes.",
+            "label": "None"
+          },
+          {
+            "sentence": "She presents to the memory clinic with cognitive concerns noted by her caregiver.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient reports occasional attention lapses but denies significant memory loss or confusion.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Caregivers report that she requires supervision for cooking due to occasional lapses in attention.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient also mentions experiencing sleep fragmentation and occasional irritability.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert and oriented to time and place.",
+            "label": "None"
+          },
+          {
+            "sentence": "She demonstrates normal speech and comprehension but exhibits mild attentional deficits on testing.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "No focal neurological deficits are noted.",
+            "label": "None"
+          },
+          {
+            "sentence": "Sleep studies show fragmented sleep patterns consistent with her complaints.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant neuropsychiatric symptoms other than occasional irritability are observed.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the cognitive changes and caregiver observations.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "Her attentional lapses and sleep fragmentation are consistent with this diagnosis.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The presence of irritability may be related to her cognitive decline or other underlying conditions such as diabetes.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**PLAN:**\nInit",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -1,
+        "note": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes. Family reports of increasing forgetfulness over the past year, particularly regarding recent events and appointments. The patient requires supervision for cooking due to occasional confusion. She also reports insomnia and anxiety.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits signs of cognitive decline, including difficulty recalling recent conversations. There is no evidence of acute distress or delirium. She has mild tremors and reports difficulty sleeping at night. No significant physical abnormalities were noted.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the gradual onset of forgetfulness and family concerns. Her sleep disturbances and anxiety may be related to her cognitive decline. The presence of multiple comorbidities, including diabetes and cataracts, adds complexity to her care.\n\n**PLAN:**\nInitiate a trial of cognitive behavioral therapy for anxiety and provide education on managing cognitive symptoms. Prescribe a low-dose benzodiazepine for",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 82-year-old female with a history of smoking, cataracts, and type 2 diabetes.",
+            "label": "None"
+          },
+          {
+            "sentence": "Family reports of increasing forgetfulness over the past year, particularly regarding recent events and appointments.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient requires supervision for cooking due to occasional confusion.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "She also reports insomnia and anxiety.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits signs of cognitive decline, including difficulty recalling recent conversations.",
+            "label": "None"
+          },
+          {
+            "sentence": "There is no evidence of acute distress or delirium.",
+            "label": "None"
+          },
+          {
+            "sentence": "She has mild tremors and reports difficulty sleeping at night.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant physical abnormalities were noted.",
+            "label": "None"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the gradual onset of forgetfulness and family concerns.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Her sleep disturbances and anxiety may be related to her cognitive decline.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "The presence of multiple comorbidities, including diabetes and cataracts, adds complexity to her care.",
+            "label": "None"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate a trial of cognitive behavioral therapy for anxiety and provide education on managing cognitive symptoms.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "Prescribe a low-dose benzodiazepine for",
+            "label": "None"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "patient_id": "P2",
+    "persona": {
+      "age": 67,
+      "sex": "F",
+      "risk": "type2_diabetes, vision_cataract, obesity"
+    },
+    "timeline": [
+      {
+        "year": -10,
+        "note": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a 10-year history of cognitive decline. Family reports attention lapses and irritability. The patient requires assistance with managing her finances, indicating significant cognitive impairment. She also reports sleep fragmentation. No significant changes in mood or behavior noted since last visit.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits signs of cognitive slowing. Visual acuity is reduced due to cataracts. BMI is 32 kg/m\u00b2, consistent with obesity. No new physical findings or neurological deficits noted.\n\n**ASSESSMENT:**\nThe patient likely has mild to moderate Alzheimer's disease, given the 10-year history of cognitive decline, family reports of attention lapses, and current need for financial assistance. Sleep fragmentation may be contributing to her irritability. No evidence of other primary psychiatric disorders.\n\n**PLAN:**\nContinue current management with cholinesterase inhibitors. Initiate cognitive behavioral therapy for irritability. Refer to an ophthalmologist for cataract surgery. Consider a sleep study",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a 10-year history of cognitive decline.",
+            "label": "None"
+          },
+          {
+            "sentence": "Family reports attention lapses and irritability.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient requires assistance with managing her finances, indicating significant cognitive impairment.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "She also reports sleep fragmentation.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant changes in mood or behavior noted since last visit.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits signs of cognitive slowing.",
+            "label": "None"
+          },
+          {
+            "sentence": "Visual acuity is reduced due to cataracts.",
+            "label": "None"
+          },
+          {
+            "sentence": "BMI is 32 kg/m\u00b2, consistent with obesity.",
+            "label": "None"
+          },
+          {
+            "sentence": "No new physical findings or neurological deficits noted.",
+            "label": "None"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has mild to moderate Alzheimer's disease, given the 10-year history of cognitive decline, family reports of attention lapses, and current need for financial assistance.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Sleep fragmentation may be contributing to her irritability.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No evidence of other primary psychiatric disorders.",
+            "label": "None"
+          },
+          {
+            "sentence": "**PLAN:**\nContinue current management with cholinesterase inhibitors.",
+            "label": "None"
+          },
+          {
+            "sentence": "Initiate cognitive behavioral therapy for irritability.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "Refer to an ophthalmologist for cataract surgery.",
+            "label": "None"
+          },
+          {
+            "sentence": "Consider a sleep study",
+            "label": "Physiological"
+          }
+        ]
+      },
+      {
+        "year": -8,
+        "note": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a history of type 2 diabetes, cataracts, and obesity. She reports occasional attention lapses but denies any significant cognitive decline. Her caregiver noted possible attentional difficulties and supervision needs for cooking tasks. The patient has reported gait instability and occasional irritability.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert and oriented. She demonstrates mild gait instability but no other neurological deficits. Cognitive assessment shows intact orientation but possible attentional lapses. No significant neuropsychiatric symptoms were noted beyond occasional irritability.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given her cognitive and behavioral changes, along with her risk factors. Gait instability suggests potential cerebrovascular disease or peripheral neuropathy. Attentional lapses and irritability are consistent with early dementia.\n\n**PLAN:**\nInitiate cholinesterase inhibitors cautiously due to comorbidities. Refer to physical therapy for gait training. Schedule a multidisciplinary team meeting to discuss care planning. Provide",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a history of type 2 diabetes, cataracts, and obesity.",
+            "label": "None"
+          },
+          {
+            "sentence": "She reports occasional attention lapses but denies any significant cognitive decline.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Her caregiver noted possible attentional difficulties and supervision needs for cooking tasks.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient has reported gait instability and occasional irritability.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert and oriented.",
+            "label": "None"
+          },
+          {
+            "sentence": "She demonstrates mild gait instability but no other neurological deficits.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Cognitive assessment shows intact orientation but possible attentional lapses.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "No significant neuropsychiatric symptoms were noted beyond occasional irritability.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given her cognitive and behavioral changes, along with her risk factors.",
+            "label": "None"
+          },
+          {
+            "sentence": "Gait instability suggests potential cerebrovascular disease or peripheral neuropathy.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Attentional lapses and irritability are consistent with early dementia.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate cholinesterase inhibitors cautiously due to comorbidities.",
+            "label": "None"
+          },
+          {
+            "sentence": "Refer to physical therapy for gait training.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Schedule a multidisciplinary team meeting to discuss care planning.",
+            "label": "None"
+          },
+          {
+            "sentence": "Provide",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -6,
+        "note": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a history of type 2 diabetes, cataracts, and obesity. She presents to the memory clinic with family reports of word-finding difficulty over the past year. The patient requires assistance with managing her finances, indicating potential cognitive decline. She also reports recent vision changes, which may be related to her cataracts. The patient expresses anxiety about her cognitive abilities.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert but demonstrates mild word-finding difficulty during conversation. Vision testing reveals significant cataracts bilaterally. No other neurological deficits are noted. Mental status examination shows intact orientation but occasional pauses in speech and difficulty recalling recent events.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the reported word-finding difficulty and family concerns. Her vision changes are consistent with her cataracts. Anxiety is noted, possibly secondary to cognitive symptoms.\n\n**PLAN:**\nInitiate a trial of cholinesterase inhibitors for potential cognitive benefit. Refer to an ophthalm",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a history of type 2 diabetes, cataracts, and obesity.",
+            "label": "None"
+          },
+          {
+            "sentence": "She presents to the memory clinic with family reports of word-finding difficulty over the past year.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient requires assistance with managing her finances, indicating potential cognitive decline.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "She also reports recent vision changes, which may be related to her cataracts.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "The patient expresses anxiety about her cognitive abilities.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but demonstrates mild word-finding difficulty during conversation.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Vision testing reveals significant cataracts bilaterally.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No other neurological deficits are noted.",
+            "label": "None"
+          },
+          {
+            "sentence": "Mental status examination shows intact orientation but occasional pauses in speech and difficulty recalling recent events.",
+            "label": "None"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the reported word-finding difficulty and family concerns.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Her vision changes are consistent with her cataracts.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Anxiety is noted, possibly secondary to cognitive symptoms.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate a trial of cholinesterase inhibitors for potential cognitive benefit.",
+            "label": "None"
+          },
+          {
+            "sentence": "Refer to an ophthalm",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -4,
+        "note": "**SUBJECTIVE:**\nThe patient, a 67-year-old female, reports word-finding difficulty and requires assistance with finances. Her caregiver noted irritability and gait instability. The patient denies any recent changes in appetite or sleep patterns.\n\n**OBJECTIVE:**\nOn examination, the patient demonstrates mild gait instability but no other neurological deficits. Cognitive assessment reveals possible word-finding difficulty without significant memory impairment. No signs of delirium or hallucinations. Visual acuity is reduced due to cataracts.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease based on cognitive decline and caregiver observations. She also has comorbid type 2 diabetes and visual impairment from cataracts. Gait instability may be related to her overall health status rather than dementia.\n\n**PLAN:**\nInitiate a comprehensive geriatric evaluation including a multidisciplinary team approach. Prescribe medication review for potential side effects contributing to gait instability. Refer for vision correction surgery for cataracts. Provide resources for financial management support. Schedule follow-up in 3 months to",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient, a 67-year-old female, reports word-finding difficulty and requires assistance with finances.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Her caregiver noted irritability and gait instability.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient denies any recent changes in appetite or sleep patterns.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient demonstrates mild gait instability but no other neurological deficits.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Cognitive assessment reveals possible word-finding difficulty without significant memory impairment.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "No signs of delirium or hallucinations.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "Visual acuity is reduced due to cataracts.",
+            "label": "None"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease based on cognitive decline and caregiver observations.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "She also has comorbid type 2 diabetes and visual impairment from cataracts.",
+            "label": "None"
+          },
+          {
+            "sentence": "Gait instability may be related to her overall health status rather than dementia.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate a comprehensive geriatric evaluation including a multidisciplinary team approach.",
+            "label": "None"
+          },
+          {
+            "sentence": "Prescribe medication review for potential side effects contributing to gait instability.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "Refer for vision correction surgery for cataracts.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Provide resources for financial management support.",
+            "label": "None"
+          },
+          {
+            "sentence": "Schedule follow-up in 3 months to",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -2,
+        "note": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a history of type 2 diabetes, cataracts, and obesity. She presents today with concerns from her spouse regarding recent attention lapses and gait instability. The patient reports irritability and requires assistance with managing her finances. She denies any significant changes in memory or daily activities.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits mild gait instability during ambulation. Her cognitive function shows possible attention lapses, as noted by her spouse. No significant neuropsychiatric findings were observed other than occasional irritability. Vision and physical exam within normal limits except for noted gait issues.\n\n**ASSESSMENT:**\nGiven the patient's age, risk factors, and recent onset of attention lapses and gait instability, there is a possible early indication of Alzheimer's disease. The need for financial assistance suggests potential functional decline. Irritability may be related to cognitive changes or unrelated to them.\n\n**PLAN:**\nInitiate a comprehensive evaluation including a detailed cognitive assessment and neurological examination.",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a history of type 2 diabetes, cataracts, and obesity.",
+            "label": "None"
+          },
+          {
+            "sentence": "She presents today with concerns from her spouse regarding recent attention lapses and gait instability.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient reports irritability and requires assistance with managing her finances.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "She denies any significant changes in memory or daily activities.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits mild gait instability during ambulation.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Her cognitive function shows possible attention lapses, as noted by her spouse.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "No significant neuropsychiatric findings were observed other than occasional irritability.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Vision and physical exam within normal limits except for noted gait issues.",
+            "label": "None"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nGiven the patient's age, risk factors, and recent onset of attention lapses and gait instability, there is a possible early indication of Alzheimer's disease.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "The need for financial assistance suggests potential functional decline.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Irritability may be related to cognitive changes or unrelated to them.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate a comprehensive evaluation including a detailed cognitive assessment and neurological examination.",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -1,
+        "note": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a history of type 2 diabetes, cataracts, and obesity. She presents to the memory clinic with cognitive concerns noted by family members over the past year. The patient reports occasional attention lapses but denies any significant memory loss or disorientation. Family reports include difficulty with complex tasks such as cooking, requiring supervision. The patient also mentions recent vision changes and a depressed mood.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert and oriented. Vision is noted to be impaired due to cataracts. Neurological examination reveals no focal deficits. Cognitive assessment shows mild attentional difficulties but no evidence of dementia. Mood is noted to be mildly depressed, with no suicidal ideation.\n\n**ASSESSMENT:**\nThe patient likely has early-stage cognitive impairment possibly related to vascular risk factors. Depression is noted and may be contributing to her cognitive symptoms. Vision changes are significant and may affect daily functioning.\n\n**PLAN:**\nInitiate a trial of antidepressant therapy for depression. Referral to an ophthalm",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is a 67-year-old female with a history of type 2 diabetes, cataracts, and obesity.",
+            "label": "None"
+          },
+          {
+            "sentence": "She presents to the memory clinic with cognitive concerns noted by family members over the past year.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient reports occasional attention lapses but denies any significant memory loss or disorientation.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Family reports include difficulty with complex tasks such as cooking, requiring supervision.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient also mentions recent vision changes and a depressed mood.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert and oriented.",
+            "label": "None"
+          },
+          {
+            "sentence": "Vision is noted to be impaired due to cataracts.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Neurological examination reveals no focal deficits.",
+            "label": "None"
+          },
+          {
+            "sentence": "Cognitive assessment shows mild attentional difficulties but no evidence of dementia.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Mood is noted to be mildly depressed, with no suicidal ideation.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage cognitive impairment possibly related to vascular risk factors.",
+            "label": "None"
+          },
+          {
+            "sentence": "Depression is noted and may be contributing to her cognitive symptoms.",
+            "label": "None"
+          },
+          {
+            "sentence": "Vision changes are significant and may affect daily functioning.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate a trial of antidepressant therapy for depression.",
+            "label": "None"
+          },
+          {
+            "sentence": "Referral to an ophthalm",
+            "label": "None"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "patient_id": "P3",
+    "persona": {
+      "age": 85,
+      "sex": "M",
+      "risk": "obesity, anxiety, type2_diabetes"
+    },
+    "timeline": [
+      {
+        "year": -10,
+        "note": "**SUBJECTIVE:**\nThe patient, an 85-year-old male, reports occasional attention lapses and depressed mood. His caregiver noted these changes over the past year. The patient requires supervision for cooking due to recent vision changes. He denies any significant cognitive decline or memory loss.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits signs of mild depression. Vision testing reveals decreased acuity bilaterally. No significant cognitive impairment is noted on brief assessment. Blood pressure and glucose levels are within normal limits.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease with possible depression and vision changes contributing to his functional limitations. Caregiver observations suggest a gradual decline in cognitive function.\n\n**PLAN:**\nInitiate low-dose antidepressant therapy for mood improvement. Refer to an ophthalmologist for further evaluation of vision changes. Schedule a neuropsychological assessment in 3 months to monitor cognitive progression. Continue monitoring for any new cognitive or behavioral symptoms. Provide resources for caregiver support and education.",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient, an 85-year-old male, reports occasional attention lapses and depressed mood.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "His caregiver noted these changes over the past year.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient requires supervision for cooking due to recent vision changes.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "He denies any significant cognitive decline or memory loss.",
+            "label": "None"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but exhibits signs of mild depression.",
+            "label": "None"
+          },
+          {
+            "sentence": "Vision testing reveals decreased acuity bilaterally.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant cognitive impairment is noted on brief assessment.",
+            "label": "None"
+          },
+          {
+            "sentence": "Blood pressure and glucose levels are within normal limits.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease with possible depression and vision changes contributing to his functional limitations.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "Caregiver observations suggest a gradual decline in cognitive function.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate low-dose antidepressant therapy for mood improvement.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "Refer to an ophthalmologist for further evaluation of vision changes.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Schedule a neuropsychological assessment in 3 months to monitor cognitive progression.",
+            "label": "None"
+          },
+          {
+            "sentence": "Continue monitoring for any new cognitive or behavioral symptoms.",
+            "label": "None"
+          },
+          {
+            "sentence": "Provide resources for caregiver support and education.",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -8,
+        "note": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, anxiety, and type 2 diabetes. He presents for a follow-up neurology visit. Family reports word-finding difficulty and supervision for cooking as areas of concern. The patient has experienced recent vision changes but denies any significant cognitive decline or behavioral disturbances. He appears apathetic at times.\n\n**OBJECTIVE:**\nOn examination, the patient is alert but requires supervision for complex tasks such as cooking. Vision testing reveals mild cataracts. No significant cognitive deficits were noted on brief assessment, though family reports suggest possible early-stage cognitive impairment. No neuropsychiatric symptoms were observed beyond occasional apathy.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the family reports of cognitive decline and the need for supervision in complex activities. His apathy may be related to underlying cognitive changes. Vision changes are likely unrelated to his cognitive status.\n\n**PLAN:**\nInitiate cholinesterase inhibitors cautiously due to potential side effects. Refer to a geriatrician for",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, anxiety, and type 2 diabetes.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "He presents for a follow-up neurology visit.",
+            "label": "None"
+          },
+          {
+            "sentence": "Family reports word-finding difficulty and supervision for cooking as areas of concern.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient has experienced recent vision changes but denies any significant cognitive decline or behavioral disturbances.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "He appears apathetic at times.",
+            "label": "None"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient is alert but requires supervision for complex tasks such as cooking.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "Vision testing reveals mild cataracts.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant cognitive deficits were noted on brief assessment, though family reports suggest possible early-stage cognitive impairment.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "No neuropsychiatric symptoms were observed beyond occasional apathy.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the family reports of cognitive decline and the need for supervision in complex activities.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "His apathy may be related to underlying cognitive changes.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "Vision changes are likely unrelated to his cognitive status.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate cholinesterase inhibitors cautiously due to potential side effects.",
+            "label": "None"
+          },
+          {
+            "sentence": "Refer to a geriatrician for",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -6,
+        "note": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, type 2 diabetes, and anxiety. He presents today with concerns from family members regarding his increasing forgetfulness, particularly in managing daily activities. The patient requires supervision for cooking due to occasional confusion. He also reports insomnia and a depressed mood, which has been noted by family members. \n\n**OBJECTIVE:**\nOn examination, the patient appears well-nourished but is somewhat anxious. Vital signs are within normal limits. Cognitive assessment reveals mild memory impairment, especially short-term recall, consistent with possible early-stage Alzheimer's disease. No acute physical abnormalities were noted. The patient has difficulty with complex tasks, such as cooking, indicating potential executive function deficits.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the family reports of cognitive decline, requiring supervision for complex tasks, and depressive symptoms. His insomnia may be related to both his cognitive status and underlying anxiety.\n\n**PLAN:**\nInitiate a comprehensive geriatric evaluation, including a multidisciplinary team approach.",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, type 2 diabetes, and anxiety.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "He presents today with concerns from family members regarding his increasing forgetfulness, particularly in managing daily activities.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient requires supervision for cooking due to occasional confusion.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "He also reports insomnia and a depressed mood, which has been noted by family members.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears well-nourished but is somewhat anxious.",
+            "label": "None"
+          },
+          {
+            "sentence": "Vital signs are within normal limits.",
+            "label": "None"
+          },
+          {
+            "sentence": "Cognitive assessment reveals mild memory impairment, especially short-term recall, consistent with possible early-stage Alzheimer's disease.",
+            "label": "None"
+          },
+          {
+            "sentence": "No acute physical abnormalities were noted.",
+            "label": "None"
+          },
+          {
+            "sentence": "The patient has difficulty with complex tasks, such as cooking, indicating potential executive function deficits.",
+            "label": "None"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease given the family reports of cognitive decline, requiring supervision for complex tasks, and depressive symptoms.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "His insomnia may be related to both his cognitive status and underlying anxiety.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate a comprehensive geriatric evaluation, including a multidisciplinary team approach.",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -4,
+        "note": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, type 2 diabetes, and anxiety. His spouse reports increased forgetfulness, particularly regarding recent events and managing finances. The patient has also experienced vision changes over the past year. He appears alert but exhibits signs of mild cognitive decline, as noted by his spouse.\n\n**OBJECTIVE:**\nOn examination, the patient is oriented to person and place but demonstrates difficulty with recent memory tasks. Vision is noted to be slightly impaired, with the patient having trouble reading small print. No significant neuropsychiatric findings were observed beyond the reported anxiety.\n\n**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease based on the progressive forgetfulness and cognitive decline noted over the past four years. His vision changes and anxiety may be secondary to the cognitive impairment or unrelated conditions. The patient requires assistance with managing finances, indicating a need for further support and possibly a financial planner or legal consultation.\n\n**PLAN:**\nInitiate a comprehensive cognitive assessment including neuropsychological testing. Prescribe a trial of",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, type 2 diabetes, and anxiety.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "His spouse reports increased forgetfulness, particularly regarding recent events and managing finances.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient has also experienced vision changes over the past year.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "He appears alert but exhibits signs of mild cognitive decline, as noted by his spouse.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient is oriented to person and place but demonstrates difficulty with recent memory tasks.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "Vision is noted to be slightly impaired, with the patient having trouble reading small print.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant neuropsychiatric findings were observed beyond the reported anxiety.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has early-stage Alzheimer's disease based on the progressive forgetfulness and cognitive decline noted over the past four years.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "His vision changes and anxiety may be secondary to the cognitive impairment or unrelated conditions.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "The patient requires assistance with managing finances, indicating a need for further support and possibly a financial planner or legal consultation.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate a comprehensive cognitive assessment including neuropsychological testing.",
+            "label": "None"
+          },
+          {
+            "sentence": "Prescribe a trial of",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "year": -2,
+        "note": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, type 2 diabetes, and anxiety. He presents to the memory clinic with caregiver-reported forgetfulness, particularly regarding recent events and appointments. The caregiver also noted that the patient requires supervision for cooking due to occasional confusion. The patient has a history of gait instability, which has been present for several years. The patient appears anxious during the visit, expressing concern about his memory and ability to manage daily activities.\n\n**OBJECTIVE:**\nOn examination, the patient demonstrates mild cognitive impairment, evidenced by difficulty recalling recent conversations. There is no evidence of delirium or acute confusion. Gait is stable but slightly unsteady. No significant neurological deficits are noted. Vital signs are within normal limits, and there is no evidence of acute distress.\n\n**ASSESSMENT:**\nThe patient likely has Alzheimer's disease given the progressive forgetfulness, cognitive decline, and gait instability. Anxiety is noted, possibly contributing to his symptoms. The need for supervision in daily activities suggests a decline in executive function",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, type 2 diabetes, and anxiety.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "He presents to the memory clinic with caregiver-reported forgetfulness, particularly regarding recent events and appointments.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The caregiver also noted that the patient requires supervision for cooking due to occasional confusion.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "The patient has a history of gait instability, which has been present for several years.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "The patient appears anxious during the visit, expressing concern about his memory and ability to manage daily activities.",
+            "label": "None"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient demonstrates mild cognitive impairment, evidenced by difficulty recalling recent conversations.",
+            "label": "None"
+          },
+          {
+            "sentence": "There is no evidence of delirium or acute confusion.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Gait is stable but slightly unsteady.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant neurological deficits are noted.",
+            "label": "None"
+          },
+          {
+            "sentence": "Vital signs are within normal limits, and there is no evidence of acute distress.",
+            "label": "None"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nThe patient likely has Alzheimer's disease given the progressive forgetfulness, cognitive decline, and gait instability.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Anxiety is noted, possibly contributing to his symptoms.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "The need for supervision in daily activities suggests a decline in executive function",
+            "label": "RequiresAssistance"
+          }
+        ]
+      },
+      {
+        "year": -1,
+        "note": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, anxiety, and type 2 diabetes. Family reports attentional lapses and vision changes over the past year. The patient requires assistance with financial management. He exhibits irritability at times.\n\n**OBJECTIVE:**\nOn examination, the patient appears alert but demonstrates occasional attentional lapses during conversation. Vision testing reveals mild cataracts. No significant neuropsychiatric findings noted.\n\n**ASSESSMENT:**\nPossible early-stage Alzheimer's disease given cognitive decline and family concerns. Vision changes likely related to cataracts. Irritability may be secondary to cognitive impairment or unrelated to the cognitive decline.\n\n**PLAN:**\nInitiate cholinesterase inhibitors cautiously due to comorbid conditions. Refer to ophthalmology for cataract evaluation and potential surgery. Provide counseling on managing irritability and consider cognitive behavioral therapy. Schedule follow-up in 6 months for reassessment. Educate family on supportive care strategies.",
+        "labels": [
+          {
+            "sentence": "**SUBJECTIVE:**\nThe patient is an 85-year-old male with a history of obesity, anxiety, and type 2 diabetes.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Family reports attentional lapses and vision changes over the past year.",
+            "label": "ConcernsByOthers"
+          },
+          {
+            "sentence": "The patient requires assistance with financial management.",
+            "label": "RequiresAssistance"
+          },
+          {
+            "sentence": "He exhibits irritability at times.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**OBJECTIVE:**\nOn examination, the patient appears alert but demonstrates occasional attentional lapses during conversation.",
+            "label": "None"
+          },
+          {
+            "sentence": "Vision testing reveals mild cataracts.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "No significant neuropsychiatric findings noted.",
+            "label": "None"
+          },
+          {
+            "sentence": "**ASSESSMENT:**\nPossible early-stage Alzheimer's disease given cognitive decline and family concerns.",
+            "label": "Cognitive"
+          },
+          {
+            "sentence": "Vision changes likely related to cataracts.",
+            "label": "Physiological"
+          },
+          {
+            "sentence": "Irritability may be secondary to cognitive impairment or unrelated to the cognitive decline.",
+            "label": "Neuropsychiatric"
+          },
+          {
+            "sentence": "**PLAN:**\nInitiate cholinesterase inhibitors cautiously due to comorbid conditions.",
+            "label": "None"
+          },
+          {
+            "sentence": "Refer to ophthalmology for cataract evaluation and potential surgery.",
+            "label": "None"
+          },
+          {
+            "sentence": "Provide counseling on managing irritability and consider cognitive behavioral therapy.",
+            "label": "None"
+          },
+          {
+            "sentence": "Schedule follow-up in 6 months for reassessment.",
+            "label": "None"
+          },
+          {
+            "sentence": "Educate family on supportive care strategies.",
+            "label": "None"
+          }
+        ]
+      }
+    ]
+  }
+]
